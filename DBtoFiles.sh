@@ -1,3 +1,7 @@
+#DBtoFiles.sh
+#MySQL Backup into Cloud Files container
+#
+
 LOGIN="" #Rackspace Cloud USERNAME
 PASS="" #Rackspace Cloud API key
 TOKEN=`curl -s -I -H "X-Auth-Key: $PASS" -H "X-Auth-User: $LOGIN" https://auth.api.rackspacecloud.com/v1.0|grep X-Auth-Token|awk {'print $2'}` #store Auth Key
