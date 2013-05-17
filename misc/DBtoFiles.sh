@@ -1,6 +1,6 @@
-#DBtoFiles.sh
+#!/bin/bash
 #MySQL Backup into Cloud Files container
-#
+
 
 LOGIN="" #Rackspace Cloud USERNAME
 PASS="" #Rackspace Cloud API key
