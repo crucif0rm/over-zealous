@@ -1,0 +1,12 @@
+#
+# Backup settings
+
+
+backup_src:
+    - /home/user/stuff
+    - /z/more/stuff
+
+backup_dest: ~/move-em
+backup_host: target.host-for-backups.com
+ssh_user: matt
+ssh_key: /home/matt/.ssh/id_rsa
